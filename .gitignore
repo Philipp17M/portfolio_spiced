@@ -1,3 +1,6 @@
+# week 1: images for gif
+Week 1/images/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
