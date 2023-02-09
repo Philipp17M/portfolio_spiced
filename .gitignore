@@ -5,6 +5,14 @@ Week 1/images/*
 Week 4/glove.6B/*
 Week 4/lyrics/*
 
+# week 9 images
+Week 9/data/*
+
+# week 10 movie data
+Week 10/ml-100k/*
+
+# final project data
+final project/Simulation/data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

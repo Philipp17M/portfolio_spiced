@@ -1,0 +1,29 @@
+ALTER TABLE orders ADD CONSTRAINT fk_customer_id FOREIGN KEY ("customerID") REFERENCES customers ("customerID");
+
+ALTER TABLE customers ADD PRIMARY KEY ("customerID");
+
+
+# products and units in stock
+select ("productName","unitsInStock") from products
+
+# cheapest product:
+select ("productName","unitPrice") from products where "unitPrice" = (select min("unitPrice") from products);
+
+# most expensive product:
+select ("productName","unitPrice") from products where "unitPrice" = (select max("unitPrice") from products);
+
+# products less than $20
+select ("productName","unitPrice") from products where "unitPrice" < 20;
+
+# products between 15 and $20
+select ("productName","unitPrice") from products where ("unitPrice" < 20 and "unitPrice" > 15 ) ;
+
+# products above average price:
+select ("productName","unitPrice") from products where "unitPrice" > (select avg("unitPrice") from products);
+
+# ten most expensive products
+select ("productName","unitPrice") from products order by "unitPrice" desc limit 10;
+
+# discontinued products:
+select ("productName","productID") from products where "discontinued" = 1;
+

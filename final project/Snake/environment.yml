@@ -1,0 +1,17 @@
+name: snake_pygame
+#the above will be the name of your environment
+
+dependencies:
+  - python=3.9
+  - pip
+  # here we install pip, and below we list all the things we want
+  # to pip install (rather than conda install):
+  - pip:
+    - streamlit
+    - watchdog
+    - pandas
+    - matplotlib
+    - seaborn
+    - plotly
+    - scikit-learn
+    - pygame

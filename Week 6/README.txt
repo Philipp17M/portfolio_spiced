@@ -1,0 +1,2 @@
+The task in week 6 was to set up a series of dockers (tweet streamer, postgreSQL, etl job, mongoDB) that would get tweets from twitter, store them in mongoDB, do an ETL job on them and store the results in postgreSQL.
+Due to sickness in that week this task was not fullfilled and the missing bits and pieces might be added later. 

@@ -1,0 +1,8 @@
+sonnendaten:
+https://opendata.dwd.de/
+
+lastkurven:
+https://cloud.htw-berlin.de/s/i63o2eowZXEHxWf (passwort: profile)
+
+spotmarket preise:
+https://energy-charts.info/charts/price_spot_market/chart.htm?l=en&c=DE&interval=year&legendItems=0000110000000&year=2020&download-format=text%2Fcsv_iso
